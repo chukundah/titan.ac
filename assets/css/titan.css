@@ -7,6 +7,18 @@ body {
     color: #656565;
 }
 
+@media (min-width: 1200px) {
+  .container {
+    width: 1270px;
+  }
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 #border-right-line {
     border-right: 1.5px solid #e9e9e9;
 }
@@ -90,4 +102,27 @@ body {
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+a.action-button {
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 18px;
+    white-space: nowrap;   
+    text-decoration: none;
+    border: solid 1px #fff;
+    background: none;
+}
+
+a.action-button:hover {
+    background: #E02222;
+    color: #fff;
+    transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;      
+}
+
+a.action-button i {
+	margin-right: 10px;
 }
