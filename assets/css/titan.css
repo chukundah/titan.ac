@@ -1,0 +1,93 @@
+#wrapper {
+    width: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #656565;
+}
+
+#border-right-line {
+    border-right: 1.5px solid #e9e9e9;
+}
+
+.pre-header {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #e9e9e9;
+    font-size: 13px;
+}
+
+/*Navbar*/
+.titan-nav {
+    padding-top: 12px;
+}
+
+.navbar-fixed-top {
+    background-color: white;
+    padding-bottom: 15px;
+}
+
+.navbar-brand {
+    color: #e84d1c;
+}
+
+.navbar-nav > li > a {
+    color: #656565;
+}
+
+.navbar-nav > li > a:hover,.navbar-nav > li > a:focus {
+    background-color: transparent;
+    border-bottom: 1px solid #e84d1c;
+}
+
+
+/*Slider*/
+#slider-section {
+    margin-top: 112px;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+}
+.slider-image {
+    background-size: cover;
+    width: 100%;
+}
+
+/*Sections*/
+#intro-values {
+    background: white;
+}
+
+.intro-values-heading {
+    padding-bottom: 10px;
+}
+
+.intro-values-heading > span{
+    color: black;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.section-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#about-us {
+    background: #656565;
+    color: white;
+    margin-bottom: 80px;
+}
+
+#about-us-text {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
